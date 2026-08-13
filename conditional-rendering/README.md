@@ -1,0 +1,6 @@
+# Conditional Rendering y Components Composition
+En React, el 'Conditional Rendering' o renderizado condicional se refiere a la capacidad de mostrar o esconder componentes en la interfaz de usuario según ciertas condiciones. Esta es una característica fundamental en el desarrollo de aplicaciones interactivas, ya que permite modificar la interfaz dinámicamente en respuesta a eventos o estados. Por otro lado, la composición de componentes es un concepto fundamental en React que permite construir interfaces reutilizables y modulares,en lugar de crear componentes monolíticos y difíciles de mantener.
+La solución a este ejercicio esta dividida en los archivos que se encuentran detro de la carpeta `components` y el archivo `useGame.js` que es un Custom Hook que contiene la lógica del componenente `Game.jsx`
+
+## Objetivo
+En este workshop, crearemos un juego interactivo llamado "Adivina el Número". El juego generará un número aleatorio y el usuario deberá adivinarlo. Dependiendo de la respuesta del usuario, se mostrará un mensaje de éxito o una pista para seguir intentando. Utilizaremos **conditional rendering** para mostrar diferentes mensajes y **composición de componentes** para estructurar la interfaz de manera modular.
