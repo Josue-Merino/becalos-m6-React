@@ -1,0 +1,84 @@
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color:#292b36;
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+    box-shadow:0 12px 30px -5px rgba(15, 16, 22, 0.75);
+    margin-bottom: 2rem;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.form__input {
+    border: none;
+    padding: .75rem 1.3rem;
+    border-radius: .8rem;
+    color: #fff;
+}
+
+.form__input:focus {
+    border: none;
+    outline: 3px solid #355372;
+}
+
+.form__btn {
+    padding: .75rem 1.3rem;
+    background-color: #355372;
+    
+}
+
+.form__btn:hover {
+    background-color: #24394e;
+}
+
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem ;
+}
+
+.filter__label{
+    font-size: 1.15rem;
+    color: #5c5c5c;
+}
+
+.filter__select {
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    background-color: #3B3B3B;
+    color: #fff;
+}
+
+.filter__select:focus {
+    border: none;
+    outline: 3px solid #355372;
+}
+
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem ;
+    margin-bottom: 1rem;
+}
+
+
+.btn__delete{
+    background-color: #ff4757;
+}
+
+.btn__delete:hover {
+    background-color: #ac2e39;
+}
