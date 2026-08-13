@@ -1,0 +1,102 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  background-color: #292935;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 10px 15px -3px, rgba(0, 0, 0, 0.1) 0 4px 6px -2px;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+/* Contenedor de la tabla */
+.container__table {
+  width: 100%;
+  margin-top: 3rem;
+  background-color: #292935;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: var(--shadow);
+  overflow-x: auto; /* Evita que la tabla se rompa en pantallas pequeñas */
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Encabezado de la tabla */
+thead {
+  background-color: #515168;
+}
+
+/* Celdas del encabezado */
+thead th {
+  padding: 1.6rem;
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+/* Filas del cuerpo */
+tbody tr {
+  border-bottom: 1px solid #44445a;
+  transition: background-color .2s ease;
+}
+
+/* Efecto al pasar el mouse */
+tbody tr:hover {
+  background-color: #353547;
+}
+
+/* Celdas del cuerpo */
+tbody td {
+  padding: 1.6rem;
+  color: #e5e5e5;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+/* Última fila sin borde */
+tbody tr:last-child {
+  border-bottom: none;
+}
+
+/* Enlace "Detalles" */
+tbody td a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--accent);
+  color: white;
+  padding: .8rem 1.6rem;
+  border-radius: .6rem;
+  font-weight: 600;
+  transition: background-color .2s ease,
+              transform .2s ease;
+}
+
+/* Hover del enlace */
+tbody td a:hover {
+  background-color: #9228e6;
+  transform: translateY(-2px);
+}
+
+/* Estado activo del botón */
+tbody td a:active {
+  transform: scale(.97);
+}
+
+p {
+  font-size: 1.8rem;
+  
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "paciente": "María González",
+    "doctor": "Dr. Carlos Ramírez",
+    "especialidad": "Cardiología",
+    "fecha": "2026-08-05",
+    "hora": "09:00",
+    "consultorio": "Consultorio 101",
+    "estado": "Confirmada",
+    "motivo": "Chequeo de presión arterial"
+  },
+  {
+    "id": 2,
+    "paciente": "Juan Pérez",
+    "doctor": "Dra. Laura Hernández",
+    "especialidad": "Dermatología",
+    "fecha": "2026-08-05",
+    "hora": "10:30",
+    "consultorio": "Consultorio 203",
+    "estado": "Pendiente",
+    "motivo": "Revisión de lunar"
+  },
+  {
+    "id": 3,
+    "paciente": "Ana Martínez",
+    "doctor": "Dr. Miguel Torres",
+    "especialidad": "Pediatría",
+    "fecha": "2026-08-06",
+    "hora": "11:00",
+    "consultorio": "Consultorio 105",
+    "estado": "Confirmada",
+    "motivo": "Control de crecimiento"
+  },
+  {
+    "id": 4,
+    "paciente": "Luis Fernández",
+    "doctor": "Dra. Sofía Castro",
+    "especialidad": "Oftalmología",
+    "fecha": "2026-08-06",
+    "hora": "13:00",
+    "consultorio": "Consultorio 302",
+    "estado": "Cancelada",
+    "motivo": "Examen de la vista"
+  },
+  {
+    "id": 5,
+    "paciente": "Fernanda Ruiz",
+    "doctor": "Dr. Ricardo Mendoza",
+    "especialidad": "Traumatología",
+    "fecha": "2026-08-07",
+    "hora": "08:30",
+    "consultorio": "Consultorio 210",
+    "estado": "Confirmada",
+    "motivo": "Dolor en la rodilla"
+  },
+  {
+    "id": 6,
+    "paciente": "Pedro Sánchez",
+    "doctor": "Dra. Patricia Gómez",
+    "especialidad": "Neurología",
+    "fecha": "2026-08-07",
+    "hora": "15:30",
+    "consultorio": "Consultorio 401",
+    "estado": "Pendiente",
+    "motivo": "Dolores de cabeza frecuentes"
+  }
+]
+
