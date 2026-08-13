@@ -1,0 +1,115 @@
+/* ---------- Formulario ---------- */
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.8rem;
+  margin-bottom: 4rem;
+}
+
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+label {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+input {
+  padding: 1rem 1.2rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: .5rem;
+}
+
+input:focus {
+  outline: 2px solid var(--accent);
+  border-color: var(--accent);
+}
+
+/* ---------- Botones ---------- */
+.form__btn, .btn__clear {
+  background-color: var(--accent);
+  transition: opacity .3s ease-in;
+  transition: border .3s ease-in;
+}
+.btn__increment{
+  background-color: green;
+  transition: opacity .3s ease-in;
+  transition: border .3s ease-in;
+}
+
+.btn__decrement {
+  background-color: gray;
+  transition: opacity .3s ease-in;
+  transition: border .3s ease-in;
+}
+
+.btn__delete {
+  background-color: #c73030;
+  transition: opacity .3s ease-in;
+  transition: border .3s ease-in;
+}
+
+.form__btn:hover, 
+.btn__clear:hover,
+.btn__increment:hover,
+.btn__decrement:hover,
+.btn__delete:hover {
+  opacity: .7;
+  outline: 3px solid #fff;
+
+}
+
+button:active {
+  transform: scale(.90);
+}
+
+/* ---------- Tabla ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  background: var(--bg);
+
+  border: 1px solid var(--border);
+  border-radius: 12px;
+
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+thead {
+  background: var(--accent-bg);
+}
+
+th,
+td {
+  padding: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+th {
+  font-size: 1.5rem;
+}
+
+tr {
+  transition: background .2s ease-out;
+}
+
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody tr:hover {
+  background: #2c48752e;
+}
